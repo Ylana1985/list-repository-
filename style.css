@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+body {
+  background-color: #c4c4c4;
+}
+
+.dropdown {
+  margin: 62px 84px 0px 77px;
+  width: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  box-sizing: border-box;
+}
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-content {
+  cursor: pointer;
+  width: 500px;
+  height: 44px;
+  padding-left: 10px;
+
+  background: rgba(227, 227, 227, 1);
+  border: 2px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35.16px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.dropdown-content:hover {
+  background: rgba(101, 205, 249, 1);
+  border: 2px solid rgba(0, 0, 0, 1);
+}
+
+input {
+    border: none;
+    font-size: 48px;
+    line-height: 56px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+ text-align: left;
+font-weight: 400;
+padding-left: 10px;
+
+
+}
+
+.chosens {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.chosen {
+  display: flex;
+  flex-direction: row;
+
+  text-align: left;
+  vertical-align: middle;
+  font-size: 24px;
+  padding: 8px 16px;
+  line-height: 28px;
+  border: 1px solid #000;
+  background-color: #e27beb;
+}
+
+.btn-close {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-repeat: no-repeat;
+  background-image: url("img/Vector\ 5.png"), url("img/Vector\ 6.png");
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 42px;
+  height: 38.5px;
+  right: 17px;
+}
